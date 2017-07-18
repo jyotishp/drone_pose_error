@@ -203,3 +203,6 @@ include_directories(
 
 add_executable(track_tags src/tag_tracker.cpp)
 target_link_libraries(track_tags ${catkin_LIBRARIES})
+
+add_executable(estimate_pose src/pose_estimate.cpp)
+target_link_libraries(estimate_pose ${catkin_LIBRARIES})
